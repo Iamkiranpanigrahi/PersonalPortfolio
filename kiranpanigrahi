@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiran Panigrahi's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #0a0b08;
+            color: #f9f5f5;
+        }
+        header {
+            background: #6a1b9a;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            animation: fadeIn 2s;
+        }
+        section {
+            padding: 2rem;
+        }
+        .about, .experience, .projects, .skills, .contact {
+            margin: 2rem 0;
+        }
+        h2 {
+            text-align: center;
+            color: #6a1b9a;
+        }
+        .content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .content p {
+            line-height: 1.6;
+            animation: slideIn 1.5s;
+        }
+        .contact a {
+            color: #6a1b9a;
+            text-decoration: none;
+        }
+        footer {
+            background: #6a1b9a;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+        @keyframes slideIn {
+            from {transform: translateX(-100%);}
+            to {transform: translateX(0);}
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 300px;
+            animation: fadeIn 4s;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Kiran Panigrahi</h1>
+</header>
+
+<section class="about">
+    <h2>About Me</h2>
+    <div class="content">
+        <p>Greetings! I am an aspiring Computer Science Engineering student with a proven record of excelling in academics and extracurriculars. My journey reflects a relentless pursuit of knowledge and a drive to impact various spheres. A true multitasker, I effortlessly balance academic commitments with my passions for Web Development, AI, and ML. My diverse responsibilities are honed through active involvement in numerous activities. My unquenchable curiosity drives me to explore innovative ways of leveraging technology for real-world challenges. Beyond the classroom, I'm deeply engaged in community work as a social worker, volunteer, and inspirational speaker, fostering connections and driving meaningful change. The captivating realms of AI and ML hold my attention as I delve into the latest advancements, always eager to apply these technologies to create innovative solutions.</p>
+        <img src="https://via.placeholder.com/300" alt="Kiran Panigrahi">
+    </div>
+</section>
+
+<section class="experience">
+    <h2>Experience</h2>
+    <div class="content">
+        <p><strong>Siksha 'O' Anusandhan University</strong><br>Bachelor of Technology in Computer Science and Engineering (Nov 2022 - July 2026)</p>
+        <p><strong>Developed a Full-Stack Payment Gateway Integration Website</strong> (May 2024 - Present)<br>Designed and implemented a secure and user-friendly payment gateway integration website for The Sparks Foundation, utilizing HTML, CSS, JavaScript, and PHP for seamless transaction processing.</p>
+        <p><strong>Girl Script Summer of Code (GSSOC)</strong> (May 2024 - Present)<br>Collaborated on diverse projects, actively contributing to multiple open-source projects, improving code quality and functionality. Worked closely with maintainers and fellow contributors to solve complex problems, enhance documentation, and implement new features.</p>
+        <p><strong>Coding samurais</strong><br>Developed a Movie Recommendation System: Used collaborative filtering and content-based filtering techniques to build a system that provided personalized movie suggestions based on viewing history and preferences. Created a Flower Species Prediction Model: Implemented a machine learning model to classify flower species using features such as petal and sepal measurements. Used supervised learning algorithms and Linear Regression techniques.</p>
+        <p><strong>The Sparks Foundation</strong><br>Web Development Intern</p>
+        <p><strong>Bharat Intern</strong><br>Machine Learning Intern</p>
+        <p><strong>Unschool</strong> (Sep 2023 - Oct 2023)<br>Marketing Intern: Developed innovative digital marketing strategies, spearheaded social media campaigns, increasing engagement by 35%, and assisted in content creation, market research, and analyzing campaign performance to enhance brand visibility and customer acquisition for Unschool.</p>
+    </div>
+</section>
+
+<section class="projects">
+    <h2>Projects</h2>
+    <div class="content">
+        <p><strong>Movie Recommendation System</strong><br>Used collaborative filtering and content-based filtering techniques to build a system that provided personalized movie suggestions based on viewing history and preferences.</p>
+        <p><strong>Flower Species Prediction Model</strong><br>Implemented a machine learning model to classify flower species using features such as petal and sepal measurements. Used supervised learning algorithms and Linear Regression techniques.</p>
+        <p><strong>Wine Quality Prediction Project</strong><br>Developed a machine learning model to predict wine quality using data prediction techniques. Employed various preprocessing steps, including data cleaning and feature selection, and implemented linear regression algorithms to achieve accurate and reliable predictions.</p>
+        <p><strong>House Price Prediction Project</strong><br>Created a robust model to predict house prices by utilizing linear regression techniques. Conducted thorough data analysis, including feature engineering and scaling, to ensure the model's performance and precision in predicting housing market trends.</p>
+    </div>
+</section>
+
+<section class="skills">
+    <h2>Skills</h2>
+    <div class="content">
+        <p><strong>Languages:</strong> Java, Python, HTML/CSS</p>
+        <p><strong>Developer Tools:</strong> IDEs, JavaScript, Matplotlib</p>
+        <p><strong>Libraries & Frameworks:</strong> Pandas, Scikit-learn, Numpy</p>
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Contact</h2>
+    <div class="content">
+        <p>Bhubaneshwar, Odisha</p>
+        <p>Email: <a href="mailto:kiranpanigrahi2004@gmail.com">kiranpanigrahi2004@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/kiran-panigrahi-996223202" target="_blank">linkedin.com/in/kiran-panigrahi-996223202</a></p>
+        <p>GitHub: <a href="https://github.com/Iamkiranpanigrahi" target="_blank">github.com/Iamkiranpanigrahi</a></p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Kiran Panigrahi. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
